@@ -19,6 +19,14 @@ h2 {
     font-weight: 500;
 }
 
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
 /* ------------- */
 /* Main CSS */
 /* ------------- */
@@ -55,10 +63,14 @@ body {
 }
 
 /* Chapter Container */
+.chapter-container {
+    margin-top: 128px;
+}
 
 .chapter {
     outline: 4px dashed red;
-    padding: 6px;
+    padding: 12px;
+    margin: 24px;
 }
 
 img {
