@@ -34,14 +34,23 @@ body {
     justify-content: space-between;
 }
 
+#logo-large {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+body-internal {
+    height: 80vh;
+    display: row;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 img {
     filter: drop-shadow 3px 3px 2px #00000080;
     -webkit-filter: drop-shadow(3px 3px 2px #00000080);
     filter: drop-shadow(3px 3px px #00000080);
-}
-
-#peek {
-    max-height: 300px;
 }
 
 .header {
