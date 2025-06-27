@@ -33,9 +33,8 @@ p {
 
 body {
     height: 100vh;
-    background-color: #2e002e;
     background-image: url(img/bg.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-position: center;
 
@@ -84,7 +83,7 @@ img {
 }
 
 .header {
-    background-color: #210020;
+    background-color: #020924;
     font-size: 18px;
 
     /* Flexbox */
@@ -107,7 +106,7 @@ img {
 }
 
 .footer {
-    background-color: #210020;
+    background-color: #020924;
     font-size: 18px;
 
     flex-shrink: 0;
