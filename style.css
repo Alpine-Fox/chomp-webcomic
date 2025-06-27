@@ -40,11 +40,11 @@ body {
     width: auto;
 }
 
-body-internal {
-    height: 80vh;
-    display: row;
-    flex-direction: column;
-    justify-content: space-between;
+/* Chapter Container */
+
+.chapter {
+    outline: 4px dashed red;
+    padding: 6px;
 }
 
 img {
