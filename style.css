@@ -34,6 +34,20 @@ body {
     justify-content: space-between;
 }
 
+.body-intro {
+     /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+     margin: 0 auto;
+}
+
 #logo-large {
     max-width: 100%;
     height: auto;
