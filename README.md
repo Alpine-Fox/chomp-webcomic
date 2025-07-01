@@ -7,5 +7,6 @@ Simple site that displays webcomic chapters
 - [x] Basic CSS/Flexbox
 ## Making The Site Functional
 - [x] Add-in website background (or set color if static)
-- [ ] Create main layout for homepage (chapters)
-- [ ] Create comic-view layout
+- [x] Create main layout for homepage (chapters)
+- [x] Create comic-view layout (subject to change)
+- [ ] Change header nav to match new mockup
