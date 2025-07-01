@@ -33,8 +33,8 @@ p {
 
 body {
     height: 100vh;
-    background-image: url(img/bg.png);
-    background-repeat: repeat;
+    background-image: url(img/SiteBG.png);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
