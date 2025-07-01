@@ -112,6 +112,9 @@ background-color: #020924;
     left: 0;
     width: 100%;
     padding: 16px;
+     display: flex;
+    padding: 16px;
+    justify-content: center;
     
 
 
