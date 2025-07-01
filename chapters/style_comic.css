@@ -34,10 +34,11 @@ p {
 
 body {
     height: 100vh;
-    background-image: url(../img/bg.png);
-    background-repeat: repeat;
+    background-image: url(../img/SiteBG.png);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-attachment:fixed;
+    background-position:center bottom;
     /* Flexbox */
     display: flex;
     flex-direction: column;
@@ -47,17 +48,12 @@ body {
 }
 
 .header {
-    background-color: #020924;
     font-size: 18px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
 
     /* Flexbox */
     display: flex;
     padding: 16px;
-    margin: 0px;
+    justify-content: center;
 }
 
 /* When trying to make nav bars, make sure "flex-direction: row" for the actual nav links lol */
@@ -68,9 +64,30 @@ body {
     /* Flexbox */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 48px;
+    max-width: 90vh;
+    flex: 1;
+    padding: 0px;
+    gap: 36px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+#header-img {
+    background-color: #000000;
+    padding-top: 12px;
+    padding-bottom: 0px;
+}
+
+#header-nav {
+background-color: #020924;
+ padding-top: 12px;
 }
 
 .webcomic-viewer {
