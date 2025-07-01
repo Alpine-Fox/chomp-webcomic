@@ -36,7 +36,8 @@ body {
     background-image: url(img/SiteBG.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-attachment:fixed;
+    background-position:center bottom;
 
     /* Flexbox */
     display: flex;
@@ -58,7 +59,7 @@ body {
      margin: 0 auto;
 }
 
-.header-container {
+.img-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -114,8 +115,9 @@ img {
     /* Flexbox */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    max-width: 90vh;
     flex: 1;
     padding: 0px;
     gap: 36px;
