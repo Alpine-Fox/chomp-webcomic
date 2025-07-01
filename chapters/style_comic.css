@@ -34,6 +34,7 @@ p {
 
 body {
     height: 100vh;
+    background-color: #000000;
     background-image: url(../img/SiteBG.png);
     background-repeat: no-repeat;
     background-size: cover;
