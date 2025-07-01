@@ -58,6 +58,21 @@ body {
      margin: 0 auto;
 }
 
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+#logo-small {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    padding: 12px;
+    padding-bottom: 0px;
+}
+
 #logo-large {
     max-width: 100%;
     height: auto;
@@ -83,7 +98,6 @@ img {
 }
 
 .header {
-    background-color: #020924;
     font-size: 18px;
 
     /* Flexbox */
@@ -102,7 +116,20 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 48px;
+    flex: 1;
+    padding: 0px;
+    gap: 36px;
+}
+
+#header-img {
+    background-color: #000000;
+    padding-top: 12px;
+    padding-bottom: 0px;
+}
+
+#header-nav {
+background-color: #020924;
+ padding-top: 12px;
 }
 
 .footer {
