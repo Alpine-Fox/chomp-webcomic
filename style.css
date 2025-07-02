@@ -131,12 +131,13 @@ img {
 }
 
 #header-nav {
-background-color: #020924;
+
+background-image: linear-gradient(#000026, #000f41, #000026);
  padding-top: 12px;
 }
 
 .footer {
-    background-color: #020924;
+    background-image: linear-gradient(#000026, #000f41, #000026);;
     font-size: 18px;
 
     flex-shrink: 0;
